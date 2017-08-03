@@ -15,8 +15,14 @@
       <h1><a href="@root/">{{ site.title || "Site Title" }}</a></h1>
 
       {% if site.tagline %}
-        <p class="tagline">{{ site.tagline.strip() }}<a href="https://github.com/dmulholland/ivy"> Ivy</a></p>
+        <p class="tagline">{{ site.tagline.strip() }}<a href="https://github.com/dmulholland/ivy"> Ivy</a>
       {% endif %}
+
+        <br>Check me out at:  
+           <a href='mailto:c.kevin.ye@gmail.com'><span class='symbol'>circlegithub</span></a>
+           <a href='https://www.linkedin.com/in/kevin-ye/'<span class='symbol'>circlelinkedin</span></a>
+           <a href='https://github.com/kye308'<span class='symbol'>circlegithubalt</span></a>
+        </p>
 
       <nav class="menu">
         <input id="menu-check" type="checkbox"/>
@@ -27,6 +33,7 @@
         </label>
         {{ inc.menu }}
       </nav>
+
     </header>
 
     <article class="main">
@@ -41,5 +48,7 @@
     </article>
 
     {{ inc.foot }}
+
+
   </body>
 </html>
