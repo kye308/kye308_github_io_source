@@ -139,13 +139,13 @@ big {
     -ms-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
     font-smoothing: antialiased;
+    font-size: x-large;    
 }
 
 a.symbol:before {
     font-family: 'Crimson Text', serif;
     content: attr(title);
     font-size: 130%;
-
 }
 
 /**

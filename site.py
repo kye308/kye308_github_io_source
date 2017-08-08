@@ -19,7 +19,7 @@ theme = "graphite"
 # --------------------------------------------------------------------------
 
 # Site title - how this is displayed depends on the theme.
-title = "Site Title"
+title = "Kevin Ye"
 
 # Site tagline - how this is displayed depends on the theme.
 tagline = "Made with love, and "
